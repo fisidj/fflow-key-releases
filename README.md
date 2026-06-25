@@ -10,7 +10,7 @@ Ve a [**Releases**](https://github.com/fisidj/fflow-key-releases/releases/latest
 
 | Sistema | Archivo |
 |---|---|
-| Windows 10/11 | `.msi` o `-setup.exe` (NSIS) |
+| Windows 10/11 | `-setup.exe` (NSIS) |
 | macOS (Intel y Apple Silicon) | `.dmg` |
 | Linux | `.AppImage` o `.deb` |
 
