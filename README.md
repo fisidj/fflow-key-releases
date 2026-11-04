@@ -28,18 +28,18 @@ Creado por **Jorge Avendaño — FISI Dj** para resolver un problema personal:
 el tiempo que llevaba organizar su música y preparar sus sesiones. Hoy se
 comparte para mejorar con la experiencia y las aportaciones de otros DJs.
 
-> **2.2.0 · beta.** Entras con tu cuenta de Google o Microsoft y la app se
+> **2.3.0 · beta.** Entras con tu cuenta de Google o Microsoft y la app se
 > mantiene sola en la última versión. Puede presentar fallos: el análisis es una
 > ayuda para preparar el set; revisa los resultados y preescucha las transiciones.
 
-## Novedades de la 2.2.0
+## Novedades de la 2.3.0
 
-- **Entras con Google o Microsoft.** La sesión se queda guardada; cambiar de cuenta es cerrar sesión y entrar con otra.
-- **Hablamos de sets, no de tokens.** Ves un solo número: los sets que te quedan más los 2 gratis del mes.
-- **Pro más directo.** Al terminar el pago, FFlow Key se abre y se actualiza sola.
-- **Actualizaciones automáticas.** Las nuevas versiones se descargan e instalan solas al abrir la app.
-- **Ventanas renovadas.** Ajustes, plan, exportar y soporte comparten diseño y se cierran con Esc; Configuración del set cabe en una sola pantalla.
-- **djay Pro** como fuente de BPM y tonalidad, sin romper el análisis.
+- **Tu set dentro de tu programa DJ.** Rekordbox recibe el set como lista dentro de tu colección (con copia de seguridad previa), djay Pro como lista propia y VirtualDJ como lista nativa.
+- **Empieza desde tus playlists.** «Desde tu programa DJ» toma una o varias playlists de Rekordbox, Serato, VirtualDJ o djay Pro, con su BPM y tonalidad.
+- **Motor de tonalidad propio (Key v6) y bailabilidad.** Cada canción tiene una nota de bailabilidad del 1 al 10 y la energía lleva un decimal.
+- **Tres formas de ordenar.** Configuración compara energía, energía + bailabilidad y bailabilidad, marca la recomendada y explica por qué.
+- **Fuera del set.** Duplicados y temas que no entraron, con reproductor para escucharlos y añadirlos al final a mano.
+- **Reproductores más grandes** y play en cada canción; la app comprueba la versión de tu programa DJ antes de analizar.
 
 [Todas las novedades y correcciones de la versión](https://github.com/fisidj/fflow-key-releases/releases/latest).
 
@@ -47,12 +47,12 @@ comparte para mejorar con la experiencia y las aportaciones de otros DJs.
 
 | Tu trabajo | Cómo te ayuda FFlow Key |
 | --- | --- |
-| Conocer tu música | Analiza BPM, tonalidad y energía en tu equipo; muestra resultados canción a canción. |
+| Conocer tu música | Analiza BPM, tonalidad, energía y bailabilidad en tu equipo; muestra resultados canción a canción. |
 | Aprovechar lo que ya analizaste | Lee los datos de Serato, Rekordbox, VirtualDJ y djay Pro sin modificar tus bibliotecas, además de las etiquetas de Mixed In Key. Eliges las fuentes de BPM y tonalidad por separado. |
 | Corregir antes de generar | Revisa el BPM junto a Configuración: escucha, edita el valor, usa ×2/÷2 o restaura el original. |
-| Dar forma a la sesión | Modos Warmup, Full, Peak, Closing y Libre, con ajustes de compatibilidad armónica y evolución de energía. La curva de energía del set es lo primero que ves. |
-| Afinar tu selección | Preescucha, revisión de duplicados y edición del orden del set, con el nombre de tus archivos tal cual están en tu carpeta. |
-| Seguir en tu software habitual | Exporta un crate para Serato o djay Pro, o una playlist M3U8 para Rekordbox, VirtualDJ y Traktor. |
+| Dar forma a la sesión | Modos Warmup, Full, Peak, Closing y Libre, con ajustes de compatibilidad armónica y evolución de energía, y tres formas de ordenar comparadas antes de generar. La curva de energía del set es lo primero que ves. |
+| Afinar tu selección | Preescucha, «Fuera del set» con duplicados y temas que no entraron, y edición del orden del set, con el nombre de tus archivos tal cual están en tu carpeta. |
+| Seguir en tu software habitual | Exporta un crate para Serato, una lista propia en djay Pro, una lista dentro de tu colección de Rekordbox, una lista nativa en VirtualDJ, o M3U8 para Traktor y otros. |
 | Trabajar con más control | Validaciones de exportación, protección frente a sobrescrituras y acceso a tus últimas exportaciones desde Ajustes. |
 
 ## Una mirada al flujo de trabajo
@@ -90,11 +90,11 @@ comparte para mejorar con la experiencia y las aportaciones de otros DJs.
 | **Mac Intel** | macOS 10.15 Catalina o posterior | [Descargar DMG universal](https://fflow-key-worker.fisidj.workers.dev/download/macos) |
 | **Apple Silicon** | macOS 11 Big Sur o posterior | [Descargar el mismo DMG universal](https://fflow-key-worker.fisidj.workers.dev/download/macos) |
 
-- **Memoria:** 4 GB de RAM; se recomiendan 8 GB para bibliotecas grandes.
+- **Memoria:** 4 GB de RAM como mínimo; se recomiendan 8 GB.
 - **Pantalla:** resolución mínima de 1100 × 700.
-- **Disco:** 1 GB libre para instalar, además del espacio para música y caché.
+- **Disco:** 3 GB libres: la aplicación, la caché de análisis y la caché de reproducción (hasta 2 GB), además del espacio para tu música.
 - **Cuenta:** Google o Microsoft para iniciar sesión.
-- **Internet:** para iniciar sesión, consultar tu plan y recibir actualizaciones. El análisis de tu música se hace en tu equipo.
+- **Internet:** para iniciar sesión, contratar Pro e instalar las actualizaciones (obligatorias). Sin conexión se sigue analizando y armando sets; el análisis de tu música se hace en tu equipo.
 - El motor de análisis viene incluido. Para usar la app no necesitas instalar Python ni herramientas de desarrollo.
 
 **Windows:** abre el archivo `-setup.exe` y sigue el instalador. La instalación es
